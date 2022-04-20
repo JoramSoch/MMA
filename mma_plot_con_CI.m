@@ -1,7 +1,7 @@
 function [cb, CI] = mma_plot_con_CI(MMA, con, xyz, alpha, CI_plot)
 % _
 % Plot Contrast with Confidence Intervals for Multi-Modal Analysis
-% FORMAT [cb, CI] = spm_plot_con_CI(MMA, con, xyz, alpha, CI_plot)
+% FORMAT [cb, CI] = mma_plot_con_CI(MMA, con, xyz, alpha, CI_plot)
 % 
 %     MMA     - a structure specifying an estimated MMA model
 %     con     - an integer indexing the contrast to be used

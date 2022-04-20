@@ -81,3 +81,12 @@ The following figures are outputs from exemplary applications of "mma_plot_con_C
 
 * regression lines with confidence bands:
 <img src="https://raw.githubusercontent.com/JoramSoch/MMA/main/MMA_Examples/mma_plot_reg_CI.png" alt="MMA: plot regression lines with CBs" width=600>
+
+
+## Dependencies
+
+This toolbox uses the following
+
+* [MACS](https://github.com/JoramSoch/MACS) functions: `MA_load_mask`, `MA_load_data`, `MA_init_header`, `MS_create_mask`, `MF_int2str0`;
+
+* [SPM](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/) functions: `spm_get_defaults`, `spm_read_vols`, `spm_write_vol`, `spm_data_hdr_write`, `spm_data_write`, `spm_filter`, `spm_est_non_sphericity`, `spm_inv`, `spm_sqrtm`, `spm_sp`, `spm_DesMtx`, `spm_SpUtil`, `spm_select`, `spm_progress_bar`.
